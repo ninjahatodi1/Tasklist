@@ -1,0 +1,164 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+   background: coral;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+   h1{
+     font-family: 'Rubik Mono One', sans-serif;
+     display: block;
+     text-shadow: 0.15rem  0.15rem steelblue;
+     color: orange;
+     text-align: center;
+     font-size: 2rem;
+     margin-bottom: 1rem;
+
+  }
+
+  h2{
+
+    font-family: 'Rubik Mono One', sans-serif;
+     
+    font-size: 2rem;
+     color:coral;
+     text-align: center;
+     margin: 1rem;
+    
+
+  }
+#container {
+    z-index: 1;
+  max-width: 500px;
+  margin: 3rem auto;
+  background: #fff;
+ padding: 2rem;
+ border-radius: 5px;
+}
+
+.container-content{
+
+  display: flex;
+  flex-direction: column; 
+}
+
+/* 
+input[type="text"] {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  
+}  */
+#container .container-content #inputSubject{
+    margin: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #333;
+    width: 90%;
+}
+
+input[type="text"],input[type= text]::placeholder{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  outline: none;
+  text-transform: inherit;
+}
+
+#add , #clear{
+  display: inline-block;
+  margin-top: 0.5rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    background: greenyellow;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Chewy', cursive;
+    
+
+}
+.link{
+  font-family: 'Chewy', cursive;
+}
+
+#add:hover , #clear:hover{
+
+  opacity: 1;
+  color: black;
+}
+
+#clear{
+   
+  background: rgb(44, 42, 42);
+}
+
+#filter{
+  margin: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #333;
+    width: 90%;
+
+   
+}
+/* .btn {
+
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.3rem 0.3rem;
+  background: #f4f4f4;
+  opacity: 0.8;
+}
+.btn:hover{
+
+  opacity: 1;
+}
+.btn-green{
+
+   padding: 0.8rem 1.5rem;
+   background:green;
+   margin-top: 1rem;
+   border-style: none;
+   border-radius: 5px;
+} */
+
+ul{
+   list-style-type: square;
+}
+
+ul .li {
+
+
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 0.8rem;
+  border-bottom: 1px dotted;
+  font-family: 'Oswald', sans-serif;
+
+  font-size: 1.2rem;
+   
+   
+}
+ul .li .link{
+
+  text-decoration: none;
+  color: red;
+  opacity: 0.6;
+}
+
+ul .li .link:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
